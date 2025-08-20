@@ -7,7 +7,7 @@ const SingleProductPage = () => {
     const [product,setProduct] = useState(null)
    const [isloading,setIsLoading] = useState(false)
    const [error,setError] = useState('')
-   const [count,setCounter] = useState(0)
+   const [count,setCounter] = useState(1)
 
    useEffect(()=>{
     const fetchProduct = async () => {
